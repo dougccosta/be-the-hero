@@ -1,0 +1,26 @@
+npm init -y
+npm install express
+npm install nodemon -D
+
+//Configurando conexão com o banco
+npm install knex
+npm install sqlite3
+
+npx knex init
+
+//Criando migrations
+npx knex migrate:make create_ongs
+npx knex migrate:latest
+
+npx knex migrate:make create_incidents
+npx knex migrate:latest
+
+//Deletar ultima migration
+npx knex migrate:rollback
+
+//Listar migrations executadas
+npx knex migrate:status
+
+
+//Determina quem acessa a aplicação
+npm install cors

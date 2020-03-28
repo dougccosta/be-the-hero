@@ -1,0 +1,17 @@
+Definindo entidades:
+
+• ONG
+• Caso (incident)
+
+Definindo funcionalidades:
+
+• Login ONG
+• Logout ONG
+• Cadastro ONG
+• Cadastrar novos casos
+• Deletar casos
+• Listar casos da ONG
+
+>Mobile
+• Listar todos os Cadastro
+• Entrar em contato com a ONG
